@@ -36,9 +36,7 @@ div.button {
   text-align: center;
   height: 30px;
   width: 30px;
-  display: flex;
-  align-items: middle;
-  justify-content: center;
+  line-height: 30px;
   background-color: #333;
   border-radius: 50%;
   padding: 20px;
@@ -69,7 +67,7 @@ div.function:active {
 }
 
 div.operator, div.equals {
-  align-items: center;
+  line-height: 30px;
   background-color: #ffa500;
 }
 
